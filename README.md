@@ -1,8 +1,7 @@
 # 19CS301-Module-6
 
-- **Name:** Nevil Joe Ferdin P
-- **Register Number:** 212222050041
-
+- **Name:** Mohamed Munthasir Y
+- **Register Number:** 212222220025
   
 ## EX.NO: 6.1   POLYMORPHISM
 
