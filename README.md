@@ -1,5 +1,10 @@
 # 19CS301-Module-6
-EX: 6.1   POLYMORPHISM
+
+- **Name:** Nevil Joe Ferdin P
+- **Register Number:** 212222050041
+
+  
+## EX.NO: 6.1   POLYMORPHISM
 
 ### AIM: To Create two specific classes- Beans and Mango. Along with that, create a generic function that tells us the type and color of the object we pass. Mind you, since we have passed only “obj” through it, this obj can be any object.
 
@@ -14,7 +19,7 @@ Step3: def a function func
 Step 4: call the objects and execute the program
 
 ### PROGRAM:
-```
+```python
 class Beans ():
     def type(self):   
           print("Vegetable")
@@ -39,7 +44,9 @@ class Mango:
 
 ### RESULT: Thus, the program has been successfully executed.
 
-EXP.No: 6.b OPERATOR OVERLOADING
+
+
+## EXP.No: 6.2 OPERATOR OVERLOADING
 
 ### AIM: write a python program to overload less than operator
 ###ALGORITHM:
@@ -49,7 +56,7 @@ Step2: def it	with a condition if self.a < o.a
 
 Step 3: call the function and execute the program.
 ### PROGRAM:
-```
+```python
 class A :
      def     init (self,a):
              self.a=a
@@ -67,8 +74,11 @@ print(ob1<ob2)
 
 
 
-###RESULT: Thus, the program has been successfully executed.
-EX: 6.3 ABSTRACT CLASS METHOD
+### RESULT: Thus, the program has been successfully executed.
+
+
+
+## EX: 6.3 ABSTRACT CLASS METHOD
 
 ### AIM: To Create the abstract method calculate_area which is of the abstract class 'Shape'
 
@@ -80,7 +90,8 @@ Step2:put class function to define the function using self
 Step3:By using the function to find the area of the rectangle and circle Step4:Execute the program.
 
 ### PROGRAM:
-```from abc import ABC
+```python
+from abc import ABC
 class Shape(ABC):
             def calculate_area(self):
                 Pass
@@ -104,11 +115,13 @@ b.calculate_area()
 
 ### RESULT: Thus, the program has been successfully executed.
 
-EXP.No: 6.4     ENCAPSULATION
+
+
+## EXP.No: 6.4     ENCAPSULATION
 ### AIM: To Implement Encapsulation using private members –of a class rectangle with private variables length,width.
 ###ALGORITHM: Step1: put class function to define the function using self Step2: By using the function to find the area of the rectangle Step3: Execute the program.
 ###PROGRAM:
-```
+```python
 class Rectangle:
  	length = 0
  	breadth = 0
@@ -120,13 +133,8 @@ class Rectangle:
 rect = Rectangle()
 ```
 ### OUTPUT:
- 
 ![image](https://github.com/user-attachments/assets/ea434dc1-3f93-4a66-8828-1d815e9ff015)
 
  
 
 ### RESULT: Thus, the program has been successfully executed
-
-
-
-
