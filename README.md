@@ -6,17 +6,18 @@
   
 ## EX.NO: 6.1   POLYMORPHISM
 
-### AIM: To Create two specific classes- Beans and Mango. Along with that, create a generic function that tells us the type and color of the object we pass. Mind you, since we have passed only “obj” through it, this obj can be any object.
+### AIM:
+To Create two specific classes- Beans and Mango. Along with that, create a generic function that tells us the type and color of the object we pass. Mind you, since we have passed only “obj” through it, this obj can be any object.
 
 
 ### ALGORITHM:
-Step1: create class Beans and def a function type and color
+**Step1:** create class Beans and def a function type and color
 
-Step 2: create a class Mango and def a function type and color
+**Step 2:** create a class Mango and def a function type and color
 
-Step3: def a function func
+**Step 3:** def a function func
 
-Step 4: call the objects and execute the program
+**Step 4:** call the objects and execute the program
 
 ### PROGRAM:
 ```python
@@ -42,19 +43,21 @@ class Mango:
 ![image](https://github.com/user-attachments/assets/b41a3e12-896b-4f6c-a9b2-19045a5088f9)
 
 
-### RESULT: Thus, the program has been successfully executed.
+### RESULT:
+Thus, the program has been successfully executed.
 
 
 
 ## EXP.No: 6.2 OPERATOR OVERLOADING
 
-### AIM: write a python program to overload less than operator
-###ALGORITHM:
-Step1 :create class A and def init	 
+### AIM: 
+write a python program to overload less than operator
+### ALGORITHM:
+**Step 1:** create class A and def init	 
 
-Step2: def it	with a condition if self.a < o.a 
+**Step 2:** def it	with a condition if self.a < o.a 
 
-Step 3: call the function and execute the program.
+**Step 3:** call the function and execute the program.
 ### PROGRAM:
 ```python
 class A :
@@ -69,25 +72,27 @@ ob1 = A(2)
 ob2 = A(3)
 print(ob1<ob2)
 ```
-###OUTPUT:
+### OUTPUT:
 ![image](https://github.com/user-attachments/assets/dae03d17-1004-424e-a179-ef62fd2681bd)
 
 
 
-### RESULT: Thus, the program has been successfully executed.
+### RESULT: 
+Thus, the program has been successfully executed.
 
 
 
 ## EX: 6.3 ABSTRACT CLASS METHOD
 
-### AIM: To Create the abstract method calculate_area which is of the abstract class 'Shape'
+### AIM:
+To Create the abstract method calculate_area which is of the abstract class 'Shape'
 
 ### ALGORITHM:
-Step1:Get input from the user
+**Step 1:** Get input from the user
 
-Step2:put class function to define the function using self
+**Step 2:** put class function to define the function using self
 
-Step3:By using the function to find the area of the rectangle and circle Step4:Execute the program.
+**Step 3:** By using the function to find the area of the rectangle and circle Step4:Execute the program.
 
 ### PROGRAM:
 ```python
@@ -113,14 +118,19 @@ b.calculate_area()
 ![image](https://github.com/user-attachments/assets/a4c70e22-b3e0-417a-86d7-41f547c9d60d)
 
 
-### RESULT: Thus, the program has been successfully executed.
+### RESULT:
+Thus, the program has been successfully executed.
 
 
 
-## EXP.No: 6.4     ENCAPSULATION
-### AIM: To Implement Encapsulation using private members –of a class rectangle with private variables length,width.
-###ALGORITHM: Step1: put class function to define the function using self Step2: By using the function to find the area of the rectangle Step3: Execute the program.
-###PROGRAM:
+## EXP.No: 6.4 ENCAPSULATION
+### AIM:
+To Implement Encapsulation using private members –of a class rectangle with private variables length,width.
+### ALGORITHM: 
+**Step 1:** put class function to define the function using self
+**Step 2:** By using the function to find the area of the rectangle 
+**Step 3:** Execute the program.
+### PROGRAM:
 ```python
 class Rectangle:
  	length = 0
@@ -137,4 +147,5 @@ rect = Rectangle()
 
  
 
-### RESULT: Thus, the program has been successfully executed
+### RESULT: 
+Thus, the program has been successfully executed
